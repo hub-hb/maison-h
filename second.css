@@ -1,0 +1,1462 @@
+*{
+    font-family: myfont ;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;border: none;
+    text-decoration: none;
+    transform: all 2s linear;
+    margin: 0;
+}
+@font-face {
+    font-family: myfont;
+    src: url(font/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+header{
+    display: flex;
+    width: 88.8%;
+    height: 60px;
+    gap: 10px;
+    z-index: 2;
+    background-color: rgba(160, 80, 5, 0.747);
+    border-radius: 12px;
+    border: 10px;
+    position: absolute;
+    top: 10px;
+    top: 10px;
+    animation: ano 10s ease;
+    transition: all 2s;
+}
+@keyframes ano {
+    0%{
+         opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+body{
+    background-color: rgba(160, 80, 5, 0.2);
+}
+h1{
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: myfont;
+    color: white;
+}
+.button{
+    background-color: rgba(160, 80, 5, 0.747);
+    height: 40px;
+    width: 160px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    color: white;
+    margin-left: 10px;
+    font-family: myfont;
+    margin-top: -20px;
+    transition: 800ms ease-in;
+    cursor: pointer;
+}
+.button:hover{
+    color: rgba(160, 80, 5, 0.747);
+    background-color: white;
+    transform: scale(1);
+}
+.button:hover a{
+    color: rgba(160, 80, 5, 0.747);
+}
+a{
+    color: white;
+}
+.btn{
+    color: white;
+    height: 40px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 19px;
+    position: relative;
+    top: 10px;
+    left: 290px;
+    border: solid 1px white;
+    transition: 88ms ease-in;
+    margin-left: 80px;
+    font-family: myfont;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background-color: rgba(160, 80, 5, 0.747);
+    border: solid 1px rgba(160, 80, 5, 0.747);
+    transform: scale(1);
+}
+.all{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 80px;
+    left: 0px;
+    display: flex;
+    gap: 10px;
+}
+.p1{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(160, 80, 5, 0.2);
+    border-radius: 10px;
+    display: flex;
+    gap: 4rem;
+    transition: all 2s ease;
+    justify-content: center;
+    overflow: hidden;
+}
+.p2:hover .p1{
+    gap: 2rem;
+}
+.box1{
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+    position: relative;
+    top: 25px; left: -70px;
+    padding: 10px;
+    height: 38rem;
+    width: 30rem;
+    font-size: 20px;
+    transition: all 800ms ease-in;
+    animation: annib 5s ease-in;
+}
+@keyframes annib {
+    0%{
+         background-color: transparent;
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+.tbox1{
+    animation: animation 2s ease-in-out;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+@keyframes animation {
+    0%{
+        position: relative;
+        left: -100%;
+        top: 20px;
+    }
+    
+    100%{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+}
+.box1:hover{
+    transform: translateY(-2%);
+} 
+.gau{
+    position: relative;
+    left: 32rem;
+    top: -18.7rem;
+}
+.box2{
+
+    animation :  annis 5s ease-in;
+    border-radius: 10px;
+    background-color: rgba(24, 14, 37, 0.315);
+    position: relative;
+    top: 25px; left: -3px;
+    padding: 10px;
+    width: 16rem;
+    height: 16rem;
+    font-size: 20px;
+    transition: all 800ms ease-in;
+    overflow: hidden;
+    font-size: 22px;
+    background-image: url(four.jpg);
+    background-size: cover;
+    animation: imgs 60s infinite;
+    color: white;
+}
+@keyframes annis {
+    0%{
+         background-color: transparent;
+    }
+    100%{
+        background-color: rgba(24, 14, 37, 0.315);
+    }
+}
+.box2:hover{
+    transform: translateY(-2%);
+}
+.fe{
+    height: 40px;
+    width: 40px;
+    border-radius: 35%;
+    padding: 7px 9px;
+    background-color: rgba(160, 80, 5, 0.747);
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    animation: fe 10s;
+    opacity: 1;
+    z-index: 2;
+    transition: all 2s ;
+    cursor: pointer;
+ }
+ .fe:hover{
+     transform: rotate(2turn);
+ }
+ @keyframes fe{
+     0%{
+        opacity: 0;
+     }
+     20%{
+         opacity: 0;
+     }
+     40%{
+         transform: scale(1.2) rotate(1turn);
+         opacity: 1;
+     }
+     60%{
+         transform: scale(1.1) rotate(-1turn);
+     }
+     80%{
+         transform: scale(1) rotate(1turn);
+     }
+     100%{
+         transform: scale(0.1) rotate(-1turn);
+     }
+ }
+ .fes{
+     position: absolute;
+     bottom: 15px;
+     left: 70px;
+     right: 0;
+     animation: fes 10s ease;
+     opacity: 0;
+ }
+ @keyframes fes {
+     0%{
+        left: -100%;
+        opacity: 1;
+     }
+     50%{
+         left: 70px;
+         opacity: 1;
+     }
+     80%{
+         left: -100%;
+         opacity: 1;
+     }
+     100%{
+         opacity: 0;
+     }
+   }
+ .tot{
+     position: relative;
+     right: 0;
+     padding: 15px;
+     animation: tot 15s ease-in;
+     opacity: 0;
+ }
+ @keyframes tot{
+     0%{
+          opacity: 0;
+     }
+     50%{
+         opacity: 1;
+     }
+     100%{
+         opacity: 0;
+     }
+ }
+.p2{
+    height: 100%;
+    width: 10rem;
+    background-color: rgba(160, 80, 5, 0.747);
+    right: 0;
+    font-size: 18px;
+    display: block;
+    align-items: center;
+    position: sticky;
+    transition: 800ms ease-in-out;
+    list-style: none;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: anoi 8s ease;
+}
+@keyframes anoi {
+    0%{
+         opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.p2:hover{
+    width: 18rem;
+    display: block;
+}
+.sp{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 0px;
+    transition: all 1s ease;
+ }
+ .p2:hover .sp{
+    margin-left: 45px;
+ }
+#user{
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 45px;
+    padding: 10px;
+    transition: 800ms ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+.p2:hover #user {
+   width: 160px;
+  }
+.p2:hover #user .sp2{
+  opacity: 1;
+}
+.sp2{
+    opacity: 0;
+    transition: 3s ease-in; 
+    margin-left: 10px;
+    color: white;
+}
+#user:hover{
+    background-color: rgba(160, 80, 5, 0.747);
+}
+
+
+#bar{
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 45px;
+    padding: 10px;
+    transition: 800ms ease-in-out;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+.p2:hover #bar {
+    width: 150px;
+   }
+ .p2:hover #bar .sp3{
+   opacity: 1;
+ }
+ .sp3{
+     opacity: 0;
+     transition: 3s ease-in; 
+     margin-left: 10px;
+     color: white;
+ }
+ #bar:hover{
+    background-color: rgba(160, 80, 5, 0.747);
+}
+#cog{
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 45px;
+    padding: 10px;
+    transition: 800ms ease-in-out;
+    overflow: hidden;
+    background-color: rgba(160, 80, 5, 0.747);
+    cursor: pointer;
+}
+.p2:hover #cog {
+    width: 130px;
+   }
+ .p2:hover #cog .sp4{
+   opacity: 1;
+ }
+ .sp4{
+     opacity: 0;
+     transition: 3s ease-in; 
+     margin-left: 10px;
+     color: white;
+ }
+ #cog:hover{
+    background-color: rgba(160, 80, 5, 0.747);
+} 
+#out{
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 45px;
+    padding: 10px;
+    transition: 800ms ease-in-out;
+    overflow-x: hidden;
+    position: relative;
+    top: 20rem;
+    cursor: pointer;
+}
+.p2:hover #out {
+    width: 130px;
+   }
+ .p2:hover #out .sp5{
+   opacity: 1;
+ }
+ .sp5{
+     opacity: 0;
+     transition: 3s ease-in; 
+     margin-left: 10px;
+     color: white;
+ }
+ #out:hover{
+    background-color: rgba(160, 80, 5, 0.747);
+}
+.p2:hover .text{
+    opacity: 1;
+    bottom: 10px;
+}
+.flex{
+    border-radius: 10px;
+    background-color: rgba(24, 14, 37, 0.315);
+    position: relative;
+    top: 25px; left: -3px;
+    padding: 10px;
+    width: 20rem;
+    height: 46rem;
+    font-size: 20px;
+    transition: all 800ms ease-in;
+    overflow: hidden;
+    font-size: 19px;
+    animation: flex 4s ease;
+}
+@keyframes flex{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes imgs {
+    0%{
+         background-image: url(two.jpg);
+    }
+    10%{
+        background-image: url(four.jpg);
+    }
+   20%{
+    background-image: url(one.jpg);
+    }
+    30%{
+        background-image: url(three.jpg);
+    }
+    40%{
+        background-image: url(one.jpg);
+    }
+    50%{
+        background-image: url(four.jpg);
+    }
+    60%{
+        background-image: url(two.jpg);
+    }
+    70%{
+        background-image: url(four.jpg);
+    }
+    80%{
+        background-image: url(one.jpg);
+    }
+    90%{
+        background-image: url(three.jpg);
+    }
+    100%{
+        background-image: url(one.jpg);
+    }
+}
+.fe{
+   height: 40px;
+   width: 40px;
+   border-radius: 35%;
+   padding: 8.4px 9.4px;
+   background-color: rgba(160, 80, 5, 0.747);
+   position: absolute;
+   bottom: 15px;
+   left: 15px;
+   animation: fe 10s;
+   opacity: 1;
+   z-index: 2;
+   transition: all 2s ;
+   cursor: pointer;
+}
+.fe:hover{
+    transform: rotate(2turn);
+}
+@keyframes fe{
+    0%{
+       opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    40%{
+        transform: scale(1.2) rotate(1turn);
+        opacity: 1;
+    }
+    60%{
+        transform: scale(1.1) rotate(-1turn);
+    }
+    80%{
+        transform: scale(1) rotate(1turn);
+    }
+    100%{
+        transform: scale(0.1) rotate(-1turn);
+    }
+}
+.fes{
+    position: absolute;
+    bottom: 15px;
+    left: 70px;
+    right: 0;
+    animation: fes 10s ease;
+    opacity: 0;
+}
+@keyframes fes {
+    0%{
+       left: -100%;
+       opacity: 1;
+    }
+    50%{
+        left: 70px;
+        opacity: 1;
+    }
+    80%{
+        left: -100%;
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+.tot{
+    position: relative;
+    right: 0;
+    padding: 15px;
+    animation: tot 15s ease-in;
+    opacity: 0;
+}
+@keyframes tot{
+    0%{
+         opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.bwa{
+    opacity: 0;
+    transition: all 3s ease-in;
+    font-size: 14px;
+    position: relative;
+    top: -60px;
+    right: 20px;
+}
+.cercle:hover .bwa{
+    opacity: 1;
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 10px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 16px;
+        margin-left: 13px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 19px;
+        position: relative;
+        top: 30px;
+        left: 25px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 19px;
+        position: relative;
+        top: 30px;
+        left: 0px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 110rem;
+        margin-left: 15px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 5rem;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 20px;
+    }
+    .box2{
+        position: relative;
+        top: 50rem; left: 5rem;
+        padding: 10px;
+        height: 20rem;
+        width: 20rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  anni 5s infinite;
+        color: white;
+        font-size: 18px;
+        transition: all 800ms ease-in;
+    }
+    .gau{
+        position: absolute;
+        left: 0;
+        top: 55rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 400px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 13px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 90rem;
+        margin-left: 15px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 70px; left: 25px;
+        padding: 10px;
+        height: 68rem;
+        width: 20rem;
+        font-size: 17px;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+    #fab{
+        color: white;
+        position: relative;
+        top:10px;
+        left: 16.4rem;
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40px;
+        width: 40px;
+        border-radius: 35%;
+        padding: 10px 13px;
+        transition: all 800ms ease-in;
+        opacity: 1;
+        animation: fab 4S ease;
+    }
+    .flex{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 25px; left: -3px;
+        padding: 10px;
+        width: 20rem;
+        height: 46rem;
+        font-size: 13px;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 19px;
+        animation: flex 4s ease;
+    }
+    .expl{
+        position: relative;
+        top: 40px;
+    }
+    .box2{
+        position: relative;
+        top: -30px; left: 1.6rem;
+        padding: 10px;
+        height: 20rem;
+        width: 20rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  anni 5s infinite;
+        color: white;
+        font-size: 18px;
+        transition: all 800ms ease-in;
+    }
+    .gau{
+        position: absolute;
+        left: 0;
+        top: 40rem;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 340px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 90rem;
+        margin-left: 10px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 0px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 17px;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+    #fab{
+        color: white;
+        position: relative;
+        top:10px;
+        left: 16.4rem;
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40px;
+        width: 40px;
+        border-radius: 35%;
+        padding: 10px 13px;
+        transition: all 800ms ease-in;
+        opacity: 1;
+        animation: fab 4S ease;
+    }
+    .flex{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 25px; left: -3px;
+        padding: 10px;
+        width: 20rem;
+        height: 46rem;
+        font-size: 13px;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 19px;
+        animation: flex 4s ease;
+    }
+    .expl{
+        position: relative;
+        top: 40px;
+    }
+    .box2{
+        position: relative;
+        top: 30rem; left: 33px;
+        padding: 10px;
+        height: 16rem;
+        width: 16rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  anni 5s infinite;
+        color: white;
+        font-size: 18px;
+        transition: all 800ms ease-in;
+    }
+    .gau{
+        position: absolute;
+        left: 5px;
+        top: 40rem;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 90rem;
+        margin-left: 12px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 30px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 17px;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+    #fab{
+        color: white;
+        position: relative;
+        top:10px;
+        left: 16.4rem;
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40px;
+        width: 40px;
+        border-radius: 35%;
+        padding: 10px 13px;
+        transition: all 800ms ease-in;
+        opacity: 1;
+        animation: fab 4S ease;
+    }
+    .flex{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 25px; left: -3px;
+        padding: 10px;
+        width: 20rem;
+        height: 46rem;
+        font-size: 13px;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 19px;
+        animation: flex 4s ease;
+    }
+    .expl{
+        position: relative;
+        top: 40px;
+    }
+    .box2{
+        position: relative;
+        top: 30rem; left: 60px;
+        padding: 10px;
+        height: 18rem;
+        width: 18rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  anni 5s infinite;
+        color: white;
+        font-size: 18px;
+        transition: all 800ms ease-in;
+    }
+    .gau{
+        position: absolute;
+        left: 5px;
+        top: 40rem;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 450px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 90rem;
+        margin-left: 12px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 40px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 17px;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+    #fab{
+        color: white;
+        position: relative;
+        top:10px;
+        left: 16.4rem;
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40px;
+        width: 40px;
+        border-radius: 35%;
+        padding: 10px 13px;
+        transition: all 800ms ease-in;
+        opacity: 1;
+        animation: fab 4S ease;
+    }
+    .flex{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 25px; left: -3px;
+        padding: 10px;
+        width: 20rem;
+        height: 46rem;
+        font-size: 13px;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 19px;
+        animation: flex 4s ease;
+    }
+    .expl{
+        position: relative;
+        top: 40px;
+    }
+    .box2{
+        position: relative;
+        top: 30rem; left: 60px;
+        padding: 10px;
+        height: 18rem;
+        width: 18rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  anni 5s infinite;
+        color: white;
+        font-size: 18px;
+        transition: all 800ms ease-in;
+    }
+    .gau{
+        position: absolute;
+        left: 5px;
+        top: 40rem;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 380px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 90rem;
+        margin-left: 12px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 10px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 17px;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+    #fab{
+        color: white;
+        position: relative;
+        top:10px;
+        left: 16.4rem;
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40px;
+        width: 40px;
+        border-radius: 35%;
+        padding: 10px 13px;
+        transition: all 800ms ease-in;
+        opacity: 1;
+        animation: fab 4S ease;
+    }
+    .flex{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 25px; left: -10px;
+        padding: 10px;
+        width: 20rem;
+        height: 46rem;
+        font-size: 13px;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 19px;
+        animation: flex 4s ease;
+    }
+    .expl{
+        position: relative;
+        top: 40px;
+    }
+    .box2{
+        position: relative;
+        top: 30rem; left: 36px;
+        padding: 10px;
+        height: 18rem;
+        width: 18rem;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        animation :  anni 5s infinite;
+        color: white;
+        font-size: 18px;
+        transition: all 800ms ease-in;
+    }
+    .gau{
+        position: absolute;
+        left: 5px;
+        top: 40rem;
+        padding: 5px;
+    }
+}

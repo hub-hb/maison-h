@@ -1,0 +1,1067 @@
+@media screen and (max-width: 400px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 13px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .p1{
+        width: 23.5rem;
+        height: 100rem;
+    }
+    .cont{
+        display: block;
+        width: 23.5rem;
+        height: 60rem;
+        
+    }
+    .apps{
+        display: block;
+        height: 37rem;
+        position: relative;
+        top: 70px;
+    }
+    .app1{
+        position: relative;
+        left: 70px;
+        background-image: url(home.png);
+        animation: name1 60s ease;
+    }
+    @keyframes name1 {
+        0%{
+            background-image: url(two.jpg);
+        }
+        25%{
+            background-image: url(hbb.jpg);
+        }
+        50%{
+            background-image: url(react.png);
+        }
+        75%{
+            background-image: url(home3.png);
+        }
+        98%{
+            background-image: url(home2.png);
+        }
+        100%{
+            background-image: url(home.png);
+        }
+    }
+    .app2{
+        position: relative;
+        left: 75px;
+    }
+    h2{
+        position: relative;
+        top: 15px;
+    }
+    .fn{
+        font-size: 17px;
+    }
+    .box2{
+        position: relative;
+        top: 20px;
+        left: 58px;
+    }
+}
+
+
+
+@media screen  and (max-width: 420px){
+
+     header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 13px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .p1{
+        border: 1px;
+        width: 24.5rem;
+        position: absolute;
+        left: 3px;
+        height: 100rem;
+    }
+    .cont{
+        display: block;
+        width: 24.5rem;
+        height: 72rem;
+    }
+    .apps{
+        display: block;
+        height: 37rem;
+        position: relative;
+        top: 70px;
+    }
+    .app1{
+        position: relative;
+        left: 75px;
+        background-image: url(home.png);
+        animation: name1 60s ease;
+    }
+    @keyframes name1 {
+        0%{
+            background-image: url(two.jpg);
+        }
+        25%{
+            background-image: url(hbb.jpg);
+        }
+        50%{
+            background-image: url(react.png);
+        }
+        75%{
+            background-image: url(home3.png);
+        }
+        98%{
+            background-image: url(home2.png);
+        }
+        100%{
+            background-image: url(home.png);
+        }
+    }
+    .app2{
+        position: relative;
+        left: 85px;
+    }
+    h2{
+        position: relative;
+        top: 15px;
+    }
+    .fn{
+        font-size: 17px;
+    }
+    .box2{
+        position: relative;
+        top: 20px;
+        left: 58px;
+    }
+}
+
+
+
+
+
+
+
+@media screen  and (max-width: 450px){
+
+    header{
+       display: block;
+       width:94%;
+       height: 150px;
+       gap: 5px;
+       z-index: 2;
+       background-color: rgba(160, 80, 5, 0.747);
+       position: absolute;
+       border-radius: 12px;
+       border: 0;
+       top: 10px;
+       animation: ano 10s ease;
+       transition: all 2s;
+       font-size: 14px;
+       margin-left: 13px;
+   }
+   .button{
+       background-color: rgba(160, 80, 5, 0.747);
+       height: 40px;
+       width: 180px;
+       padding: 8px 10px;
+       border-radius: 10px;
+       font-size: 14px;
+       position: relative;
+       top: 30px;
+       left: 15px;
+       color: white;
+       margin-left: 10px;
+       font-family: myfont;
+       margin-top: -20px;
+       transition: 800ms ease-in;
+       align-content: center;
+   }
+   .btn{
+       color: white;
+       height: 40px;
+       width: 180px;
+       padding: 8px 10px;
+       border-radius: 10px;
+       font-size: 14px;
+       align-content: center;
+       position: relative;
+       top: 30px;
+       left: -20px;
+       border: solid 1px white;
+       transition: 800ms ease-in;
+       margin-left: 80px;
+       font-family: myfont;
+       margin-top: -20px;
+   }
+   .p1{
+       border: 1px;
+       width: 26rem;
+       position: absolute;
+       left: 3px;
+       height: 95rem;
+   }
+   .cont{
+       display: block;
+       width: 27rem;
+       height: 80rem;
+   }
+   .apps{
+       display: flex;
+       height: 22rem;
+       position: relative;
+       top: 70px;
+   }
+   .app1{
+       position: relative;
+       left: 5px;
+       background-image: url(home.png);
+       animation: name1 60s ease;
+   }
+   @keyframes name1 {
+       0%{
+           background-image: url(two.jpg);
+       }
+       25%{
+           background-image: url(hbb.jpg);
+       }
+       50%{
+           background-image: url(react.png);
+       }
+       75%{
+           background-image: url(home3.png);
+       }
+       98%{
+           background-image: url(home2.png);
+       }
+       100%{
+           background-image: url(home.png);
+       }
+   }
+   .app2{
+       position: relative;
+       left: 5px;
+       font-size: 15px;
+   }
+   h2{
+       position: relative;
+       top: 25px;
+   }
+   .fn{
+       font-size: 19px;
+       position: relative;
+       top: 45px;
+   }
+   .ef{
+    height: 60px;
+    width: 60px;
+    border-radius: 35%;
+    padding: 14px 15px;
+    background-color: rgba(160, 80, 5, 0.747);
+    position: absolute;
+    bottom: -25px;
+    z-index: 2;
+    transition: all 2s ;
+    cursor: pointer;
+    font-size: 30px;
+   }
+   .box2{
+       position: relative;
+       top: 20px;
+       left: 48px;
+   }
+   .achat{
+    position: relative;
+    left: 15px;
+   }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 380px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 2000rem;
+        height: 102rem;
+        margin-left: 12px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 10px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 17px;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+    #fab{
+        color: white;
+        position: relative;
+        top:10px;
+        left: 16.4rem;
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40px;
+        width: 40px;
+        border-radius: 35%;
+        padding: 10px 13px;
+        transition: all 800ms ease-in;
+        opacity: 1;
+        animation: fab 4S ease;
+    }
+    .flex{
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 25px; left: -10px;
+        padding: 10px;
+        width: 20rem;
+        height: 46rem;
+        font-size: 13px;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 19px;
+        animation: flex 4s ease;
+    }
+    .expl{
+        position: relative;
+        top: 40px;
+    }
+
+
+      
+    .cont{
+        height: 50rem;
+        width: 22.4rem;
+        position: relative;
+        top: 2rem;
+        overflow: visible;
+    }
+    .box2{
+
+        animation :  annis 5s ease-in;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 44rem; left: 3.3rem;
+        padding: 10px;
+        width: 16rem;
+        height: 16rem;
+        transition: all 800ms ease-in;
+        background-image: url(one.jpg);
+        overflow: hidden;
+        font-size: 22px;
+        background-size: cover;
+        animation: imgs 60s infinite;
+        color: white;
+    }
+    .apps{
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40rem;
+        width: 22rem;
+        position: relative;
+        top: -15rem;
+        left: 0px;
+        border-radius: 10px;
+        gap: 10px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .app1{
+        background-image: url(home.png);
+        position: relative;
+        left: 65px;
+        top: 20px;
+        margin-left: 0px;
+        background-size: cover;
+        height: 18rem;
+        width: 14rem;
+        border-radius: 10px;
+        animation: name1 60s infinite;
+        color: white;
+        font-size: 16px;
+       
+    }
+    @keyframes name1 {
+        0%{
+            background-image: url(two.jpg);
+        }
+        25%{
+            background-image: url(hbb.jpg);
+        }
+        50%{
+            background-image: url(react.png);
+        }
+        75%{
+            background-image: url(home3.png);
+        }
+        98%{
+            background-image: url(home2.png);
+        }
+        100%{
+            background-image: url(home.png);
+        }
+    }
+    .app2{
+        background-size: cover;
+        height: 18rem;
+        width: 12rem;
+        border-radius: 10px;
+        position: relative;
+        left: 70px;
+        top: 45px;
+        color: white;
+        font-size: 15px;
+    }
+    .ef{
+        height: 50px;
+        width: 50px;
+        border-radius: 35%;
+        padding: 11px 14px;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        bottom: 15px;
+        z-index: 2;
+        transition: all 2s ;
+        cursor: pointer;
+        font-size: 25px;
+     }
+
+     .ef:hover{
+         transform: scale(1.1);
+     }
+    .fn{
+        position: relative;
+        top: 20px;
+        left: -3px;
+        font-size: 18px;
+    }
+    .fek{
+        padding: 16px 10px;
+        border-radius: 35%;
+        background-color: rgba(160, 80, 5, 0.747);
+        cursor: pointer;
+        font-size: 23px;
+        position: absolute;
+        left: 0px;
+    }
+    .achat{
+        position: relative;
+        left: 5rem;
+        top: 10px;
+        font-size: 22px;
+        color: rgba(160, 80, 5, 0.747);
+        font-size: 18px;
+    }
+    .flc{
+        display: flex;
+        position: relative;
+        top: 20px;
+        border-radius: 10px;
+        width: 21rem;
+    }
+    .boug{
+        position: relative;
+        left: -30px;
+    }
+    .bt{
+        padding: 14px 14px;
+        color: white;
+        border-radius: 35%;
+        cursor: pointer;
+        font-size: 25px;
+        margin-left: 5rem;
+        background-color: rgba(24, 14, 37, 0.315);
+    }
+    .usd{
+        padding: 16px 22px;
+        width: 120px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        cursor: pointer;
+        font-size: 18px;
+        position: absolute;
+        transition: 2s ease;
+        bottom: 5.5px;
+        left: 12rem;
+    }
+    .usd:hover{
+        background-color: green;
+    }
+    .ul{
+        position: relative;
+        top: 30px;
+    }
+    .wf{
+        padding: 14px 12px;
+        color: white;
+        background-color: rgba(24, 14, 37, 0.315);
+        border-radius: 35%;
+        cursor: pointer;
+        font-size: 22px;
+        margin-left: 5rem;
+        margin-top: 20px;
+    }
+    .usds{
+        padding: 16px 29px;
+        width: 140px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        cursor: pointer;
+        font-size: 18px;
+        position: absolute;
+        transition: 2s ease;
+        bottom: 5.5px;
+        left: 12rem;
+    }
+    .usds:hover{
+        background-color: rgb(119, 9, 101);
+    }
+    .foo{
+        position: relative;
+        top: 30px;
+        left: -30px;
+    }
+    
+    .app{
+        padding: 13px 6px;
+        color: white;
+        width: 55px;
+        height: 55px;
+        background-color: rgba(24, 14, 37, 0.315);
+        border-radius: 35%;
+        cursor: pointer;
+        font-size: 22px;
+        margin-left: 5rem;
+        margin-top: 20px;
+    }
+    .usdss{
+        padding: 16px 29px;
+        width: 140px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        cursor: pointer;
+        font-size: 18px;
+        position: absolute;
+        transition: 2s ease;
+        bottom: 5.5px;
+        left: 12rem;
+    }
+    .usdss:hover{
+        background-color: rgb(136, 13, 13);
+    }
+
+    
+}
+
+
+
+
+
+@media screen and (max-width: 340px){
+    header{
+        display: block;
+        width:94%;
+        height: 150px;
+        gap: 5px;
+        z-index: 2;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        border-radius: 12px;
+        border: 0;
+        top: 10px;
+        animation: ano 10s ease;
+        transition: all 2s;
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .button{
+        background-color: rgba(160, 80, 5, 0.747);
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        color: white;
+        margin-left: 10px;
+        font-family: myfont;
+        margin-top: -20px;
+        transition: 800ms ease-in;
+        align-content: center;
+    }
+    .btn{
+        color: white;
+        height: 40px;
+        width: 180px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        align-content: center;
+        position: relative;
+        top: 30px;
+        left: -20px;
+        border: solid 1px white;
+        transition: 800ms ease-in;
+        margin-left: 80px;
+        font-family: myfont;
+        margin-top: -20px;
+    }
+    .fl{
+        display: flex;
+        justify-content: center;
+    }
+    .all{
+        display: block;
+    }
+    .p2{
+        opacity: 0;
+        visibility: hidden;
+    }
+    .p1{
+        width: 20rem;
+        height: 102rem;
+        margin-left: 12px;
+        display: block;
+        position: relative;
+        top: 90px;
+        overflow: visible;
+    }
+    .box1{
+        color: white;
+        border-radius: 10px;
+        background-color: transparent;
+        position: relative;
+        top: 25px; left: 10px;
+        padding: 10px;
+        height: 38rem;
+        width: 20rem;
+        font-size: 17px;
+        overflow: hidden;
+    }
+    .tbox1{
+        animation: animation 2s ease-in-out;
+        position: relative;
+        top: 0px;
+        left: 5px;
+    }
+    @keyframes animation {
+        0%{
+            position: relative;
+            left: -100%;
+            top: 0px;
+        }
+        
+        100%{
+            position: relative;
+            left: 5px;
+            top: 0px;
+        }
+    }
+       
+    .cont{
+        height: 50rem;
+        width: 22.4rem;
+        position: relative;
+        top: 2rem;
+        overflow: visible;
+    }
+    .box2{
+
+        animation :  annis 5s ease-in;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        position: relative;
+        top: 44rem; left: 3.3rem;
+        padding: 10px;
+        width: 16rem;
+        height: 16rem;
+        transition: all 800ms ease-in;
+        overflow: hidden;
+        font-size: 22px;
+        background-size: cover;
+        animation: imgs 60s infinite;
+        color: white;
+    }
+    .apps{
+        background-color: rgba(24, 14, 37, 0.315);
+        height: 40rem;
+        width: 20rem;
+        position: relative;
+        top: -15rem;
+        left: 0px;
+        border-radius: 10px;
+        gap: 10px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .app1{
+        background-image: url(home.png);
+        position: relative;
+        left: 65px;
+        top: 20px;
+        margin-left: 0px;
+        background-size: cover;
+        height: 18rem;
+        width: 14rem;
+        border-radius: 10px;
+        animation: name1 60s infinite;
+        color: white;
+        font-size: 16px;
+       
+    }
+    @keyframes name1 {
+        0%{
+            background-image: url(two.jpg);
+        }
+        25%{
+            background-image: url(hbb.jpg);
+        }
+        50%{
+            background-image: url(react.png);
+        }
+        75%{
+            background-image: url(home3.png);
+        }
+        98%{
+            background-image: url(home2.png);
+        }
+        100%{
+            background-image: url(home.png);
+        }
+    }
+    .app2{
+        background-size: cover;
+        height: 18rem;
+        width: 12rem;
+        border-radius: 10px;
+        position: relative;
+        left: 70px;
+        top: 45px;
+        color: white;
+        font-size: 15px;
+    }
+    .ef{
+        height: 50px;
+        width: 50px;
+        border-radius: 35%;
+        padding: 11px 14px;
+        background-color: rgba(160, 80, 5, 0.747);
+        position: absolute;
+        bottom: 15px;
+        z-index: 2;
+        transition: all 2s ;
+        cursor: pointer;
+        font-size: 25px;
+     }
+
+     .ef:hover{
+         transform: scale(1.1);
+     }
+    .fn{
+        position: relative;
+        top: 20px;
+        left: -3px;
+        font-size: 18px;
+    }
+    .fek{
+        padding: 16px 10px;
+        border-radius: 35%;
+        background-color: rgba(160, 80, 5, 0.747);
+        cursor: pointer;
+        font-size: 23px;
+        position: absolute;
+        left: 0px;
+    }
+    .achat{
+        position: relative;
+        left: 3.5rem;
+        top: 10px;
+        font-size: 22px;
+        color: rgba(160, 80, 5, 0.747);
+        font-size: 18px;
+    }
+    .flc{
+        display: flex;
+        position: relative;
+        top: 20px;
+        border-radius: 10px;
+        width: 21rem;
+    }
+    .boug{
+        position: relative;
+        left: -30px;
+    }
+    .bt{
+        padding: 14px 14px;
+        color: white;
+        border-radius: 35%;
+        cursor: pointer;
+        font-size: 25px;
+        margin-left: 5rem;
+        background-color: rgba(24, 14, 37, 0.315);
+    }
+    .usd{
+        padding: 16px 22px;
+        width: 120px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        cursor: pointer;
+        font-size: 18px;
+        position: absolute;
+        transition: 2s ease;
+        bottom: 5.5px;
+        left: 12rem;
+    }
+    .usd:hover{
+        background-color: green;
+    }
+    .ul{
+        position: relative;
+        top: 30px;
+    }
+    .wf{
+        padding: 14px 12px;
+        color: white;
+        background-color: rgba(24, 14, 37, 0.315);
+        border-radius: 35%;
+        cursor: pointer;
+        font-size: 22px;
+        margin-left: 4rem;
+        margin-top: 20px;
+    }
+    .usds{
+        padding: 16px 29px;
+        width: 140px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        cursor: pointer;
+        font-size: 18px;
+        position: absolute;
+        transition: 2s ease;
+        bottom: 5px;
+        left: 9rem;
+    }
+    .usds:hover{
+        background-color: rgb(119, 9, 101);
+    }
+    .foo{
+        position: relative;
+        top: 30px;
+        left: -30px;
+    }
+    
+    .app{
+        padding: 13px 6px;
+        color: white;
+        width: 55px;
+        height: 55px;
+        background-color: rgba(24, 14, 37, 0.315);
+        border-radius: 35%;
+        cursor: pointer;
+        font-size: 22px;
+        margin-left: 4rem;
+        margin-top: 20px;
+    }
+    .usdss{
+        padding: 16px 29px;
+        width: 140px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: rgba(24, 14, 37, 0.315);
+        cursor: pointer;
+        font-size: 18px;
+        position: absolute;
+        transition: 2s ease;
+        bottom: 5px;
+        left: 9rem;
+    }
+    .usdss:hover{
+        background-color: rgb(136, 13, 13);
+    }
+
+    
+}
